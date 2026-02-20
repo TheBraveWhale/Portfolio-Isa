@@ -32,19 +32,56 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Portfolio | Front-end Developer Isa van der Laan</title>
   </head>
   <body>
-    <nav></nav>
-    <h1>I'm Isa van der Laan</h1>
-    <h3>
-      A Junior Front-End Developer from Enschede, The Netherlands. <br />
-      Creating thoughtful sites with clean code and design.
-    </h3>
-    <a href="/projects.html">View My Work -></a>
-    <a href="/contact.html">Get in Touch</a>
-
-    <img src="" alt="Isa van der Laan portrait" />
+    <nav class="navbar" style="background-color: #0f1729;" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/images/blossom devs logo light.png" alt="BlossomDevs Logo" class="img-fluid logo">Isa van der Laan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            
+        </div>
+      </div>
+    </nav>
+    
+    <div class="row">
+     <div class="col-6">
+        <h1>I'm Isa van der Laan</h1>
+        <h3>
+        A Junior Front-End Developer from Enschede, The Netherlands. <br />
+        Creating thoughtful sites with clean code and design.
+        </h3>
+        <a href="/projects.html">View My Work -></a>
+        <a href="/contact.html">Get in Touch</a> 
+        </div>
+    
+        <div class="col-6">
+        <img src="/images/wow.jpg" alt="Isa van der Laan portrait" class="img-fluid col-4"/>  
+    </div>
+   
+    </div>
+    
+    
 
     <h2>What I bring to the table</h2>
     <div class="line"></div>
@@ -89,9 +126,10 @@
     <a href="/projects.html">View All Projects -></a>
 
     <footer>
-      <img src="" alt="BlossomDevs logo" />
+      <img src="/images/blossom devs logo light.png" alt="BlossomDevs Logo" class="img-fluid logo">
       <span>2026 Isa van der Laan | Junior Front-End Developer</span>
       <div class="contacts"></div>
     </footer>
+    <script src="/src/script.js"></script>
   </body>
 </html>
