@@ -19,8 +19,51 @@ h2 {
   font-style: normal;
 }
 
+h1,
+h3 {
+  color: var(--font-primary-color);
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.portrait {
+  mask-image: url(/images/blossom\ logo\ blossom\ only.png);
+  -webkit-mask-image: url(/images/blossom\ logo\ blossom\ only.png);
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: right;
+  -webkit-mask-position: right;
+
+  transform: scale(4);
+}
+
+.name {
+  color: var(--font-secondairy-color);
+}
+
 .logo {
   width: 100px;
+}
+
+.navigation-links {
+  padding: 20px 30px;
+  background: linear-gradient(135deg, var(--secondairy-color) 0%, #ff62b8 100%);
+  color: var(--font-primary-color);
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(255, 153, 187, 0.3);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact {
+  background: #0f1729;
+  color: var(--font-secondairy-color);
+  border: 1px solid var(--font-secondairy-color);
+  box-shadow: none;
 }
 
 .navbar {
@@ -38,4 +81,12 @@ h2 {
 
 .nav-link {
   color: var(--font-primary-color);
+}
+
+.line {
+  margin: 0 auto;
+  border-bottom: 5px solid var(--secondairy-color);
+  border-radius: 4px;
+  width: 100px;
+  text-align: center;
 }
