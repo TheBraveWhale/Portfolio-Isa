@@ -32,6 +32,10 @@ p {
   color: var(--font-primary-color);
 }
 
+footer {
+  border-top: 1px solid var(--secondairy-color);
+}
+
 .table-container {
   text-align: center;
 }
@@ -125,6 +129,7 @@ p {
 .container-boxes {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 50px;
   margin-bottom: 300px;
 }
 
@@ -139,8 +144,61 @@ p {
 
 .featured-container {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .featured-container h2 {
   font-size: 50px;
+}
+
+.card {
+  background-color: #0f1729;
+  border: 1px solid var(--secondairy-color);
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.card h2 {
+  color: var(--font-secondairy-color);
+}
+
+.card-img-top {
+  mask-image: linear-gradient(
+    rgb(0 0 0 / 1),
+    rgb(0 0 0 / 0.5) 51%,
+    rgb(0 0 0 / 0.1) 100%
+  );
+  padding-top: 15px;
+  border-radius: 10px;
+}
+
+.card-items-highlight {
+  background-color: #ffb7c7c0;
+  color: var(--font-primary-color);
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 20px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.all-projects-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.featured-projects-block {
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  color: var(--font-primary-color);
 }
